@@ -17,6 +17,7 @@
 	<modules>
 		<module>proto</module>
 		<module>user-service</module>
+		<module>movie-service</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>
