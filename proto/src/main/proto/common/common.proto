@@ -3,9 +3,9 @@ syntax = "proto3";
 package common;
 
 option java_multiple_files = true;
-option java_package = "com.example.grpcflix.common";
+option java_package = "com.vinsguru.grpcflix.common";
 
-enum Genre{
+enum Genre {
   DRAMA = 0;
   ACTION = 1;
   CRIME = 2;

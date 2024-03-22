@@ -3,9 +3,9 @@ syntax = "proto3";
 import "common/common.proto";
 
 option java_multiple_files = true;
-option java_package = "com.example.grpcflix.user";
+option java_package = "com.vinsguru.grpcflix.user";
 
-message UserSearchRequest {
+message UserSearchRequest{
   string login_id = 1;
 }
 
@@ -15,7 +15,7 @@ message UserResponse {
   common.Genre genre = 3;
 }
 
-message UserGenreUpdateRequest {
+message UserGenreUpdateRequest{
   string login_id = 1;
   common.Genre genre = 2;
 }
