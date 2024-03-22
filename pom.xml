@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring-boot-grpc-flix</artifactId>
+	<artifactId>grpc-flix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>spring-boot-grpc-flix</name>
+	<name>grpc-flix</name>
 	<description>spring-boot-grpc-flix</description>
 	<modules>
 		<module>proto</module>
