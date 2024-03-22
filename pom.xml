@@ -11,8 +11,12 @@
 	<groupId>com.example</groupId>
 	<artifactId>spring-boot-grpc-flix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>spring-boot-grpc-flix</name>
 	<description>spring-boot-grpc-flix</description>
+	<modules>
+		<module>proto</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
