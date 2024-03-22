@@ -1,14 +1,10 @@
 syntax = "proto3";
 
+import "common/common.proto";
 option java_multiple_files = true;
 option java_package = "com.example.grpcflix.movie";
 
-enum Genre{
-  DRAMA = 0;
-  ACTION = 1;
-  CRIME = 2;
-  WESTERN = 3;
-}
+
 message MovieDto{
   string title = 1;
   int32 year = 2;
@@ -16,7 +12,7 @@ message MovieDto{
 }
 
 message MovieSearchRequest{
-  Genre genre = 1;
+  common.Genre genre = 1;
 }
 
 message MovieSearchResponse{
